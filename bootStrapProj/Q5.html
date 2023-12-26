@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Stock Prices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .stock-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="stock-item">
+        <h3>Apple Stock - Day 1</h3>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>09:00 AM</td>
+                <td>$150.25</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>$151.50</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+    </div>
+
+    <div class="stock-item">
+        <h3>Apple Stock - Day 2</h3>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>09:00 AM</td>
+                <td>$152.00</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>$153.75</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+    </div>
+
+    <!-- Add more stock items as needed -->
+
+</div>
+
+</body>
+</html>
